@@ -8,13 +8,15 @@ import Header from './components/Header';
 import { CartProvider } from './hooks/useCart';
 
 const App = (): JSX.Element => {
+  const THREE_SECONDS = 1000 * 3
+  
   return (
     <BrowserRouter>
       <CartProvider>
         <GlobalStyles />
         <Header />
         <Routes />
-        <ToastContainer autoClose={3000} />
+        <ToastContainer autoClose={THREE_SECONDS} />
       </CartProvider>
     </BrowserRouter>
   );
