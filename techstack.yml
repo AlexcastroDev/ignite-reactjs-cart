@@ -2,7 +2,7 @@ repo_name: AlexcastroDev/ignite-reactjs-cart
 report_id: 10aa8975216ed64a0ef15da639bae3b6
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:11:47+00:00'
+timestamp: '2024-02-29T19:22:49+00:00'
 requested_by: AlexcastroDev
 provider: github
 branch: master
@@ -135,7 +135,7 @@ tools:
   last_updated_by: Alexandro Castro
   last_updated_on: 2022-07-03 16:26:14.000000000 Z
 - name: Poli
-  description: 'An easy-to-use SQL reporting application '
+  description: An easy-to-use SQL reporting application
   website_url: https://github.com/shzlw/poli
   license: MIT
   open_source: true
